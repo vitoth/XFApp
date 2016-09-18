@@ -9,6 +9,8 @@
     <Import_RootNamespace>XFApp</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Tile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Board.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
   </ItemGroup>
   <ItemGroup>
